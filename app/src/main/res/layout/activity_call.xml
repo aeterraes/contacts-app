@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="24dp"
+    tools:context=".CallActivity">
+
+    <TextView
+        android:id="@+id/textViewContactName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:layout_marginBottom="16dp"/>
+
+    <TextView
+        android:id="@+id/textViewPhoneNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:layout_marginBottom="32dp"/>
+
+    <ImageButton
+        android:id="@+id/buttonEndCall"
+        android:layout_width="82dp"
+        android:layout_height="82dp"
+        android:background="@drawable/round_button"
+        android:contentDescription="Call"
+        android:scaleType="center"
+        android:src="@android:drawable/ic_menu_call"/>
+</LinearLayout>
